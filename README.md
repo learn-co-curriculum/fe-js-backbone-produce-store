@@ -53,7 +53,7 @@ var fruits = new Fruits([
 ```
 12. Additonally in **js/app.js** create a new instance of the Router and start Backbone.history up. Then set the router to navigate to the 'fruits' route.
 
-To see a similiar code example to use as a reference check out the [video here](http://youtu.be/yNLUN6CuxIw).
+To see a similiar code example to use as a reference check out the [video here](https://www.youtube.com/watch?v=beT2LX4JjjM).
 
 # Resources
 
