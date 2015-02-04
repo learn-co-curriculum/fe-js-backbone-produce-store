@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Produce Store App</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main></main>
+
+  <script type="text/handlebars" id="fruits-index-template">
+    <h1>Fruits</h1>
+    <% _.each(fruits, function (fruit, i) { %>
+      <a href="#fruits/<%= i %>">
+        <div class="fruit">
+          <img src="images/<%= fruit.img %>" alt="<%= fruit.title %>">
+          <h2><%= fruit.title %></h2>
+          <p>qty: <%= fruit.qty %><br>
+          price: $<%= fruit.price %></p>
+        </div>
+      </a>
+    <% }); %>
+  </script>
+
+  <script type="text/handlebars" id="fruit-edit-template">
+    <h1>Edit <%= fruit.title %></h1>
+    <p>img: <input type="text" class="img" value="<%= fruit.img %>">
+    title: <input type="text" class="title" value="<%= fruit.title %>"> 
+    qty: <input type="text" class="qty" value="<%= fruit.qty %>">
+    price: $<input type="text" class="price" value="<%= fruit.price %>"></p>
+    <p><a class="update" href="#" title="save"><i class="fa fa-floppy-o fa-2x"></i></a>
+    <a href="#fruits" title="cancel"><i class="fa fa-reply fa-2x"></i></a></p>
+  </script>
+  
+  <script src="js/lib/jquery-min.js"></script>
+  <script src="js/lib/underscore-min.js"></script>
+  <script src="js/lib/backbone-min.js"></script>
+  <script src="js/views/fruit-edit-view.js"></script>
+  <script src="js/views/fruits-index-view.js"></script>
+  <script src="js/models/fruit.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
