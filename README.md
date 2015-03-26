@@ -11,7 +11,7 @@ Help your neightborhood grocer track his inventory of fruit using Backbone JS.
 
 # Steps
 
-1. Fork the ironboard repo.
+1. Fork the learn repo.
 2. Clone your fork.
 3. cd into the folder for this challenge.
 4. open index.html in the browser and bring up js console in the dev tools.
