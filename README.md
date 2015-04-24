@@ -15,7 +15,7 @@ Help your neightborhood grocer track his inventory of fruit using Backbone JS.
 2. Clone your fork.
 3. cd into the folder for this challenge.
 4. open index.html in the browser and bring up js console in the dev tools.
-5. Write the code neccesary in all filesto make a Backbone driven app that functions like the [finished example here](http://flatiron-school-curriculum.github.io/fe-js-backbone-produce-store/#fruits). Need to brush up on Backbone or Underscore syntax make sure to use the documentation listed in the resources at the bottom.
+5. Write the code neccesary in all filesto make a Backbone driven app that functions like the [finished example here](http://learn-co-curriculum.github.io/fe-js-backbone-produce-store/#fruits). Need to brush up on Backbone or Underscore syntax make sure to use the documentation listed in the resources at the bottom.
 
 # Need More Hints? Here are some step by step instructions.
 
@@ -60,4 +60,4 @@ To see a similiar code example to use as a reference check out the [video here](
 - [jQuery Docs](http://api.jquery.com/)
 - [Underscore Docs](http://underscorejs.org/)
 - [Backbone Docs](http://backbonejs.org/)
-- [Finished Example](http://flatiron-school-curriculum.github.io/fe-js-backbone-produce-store/#fruits)
+- [Finished Example](http://learn-co-curriculum.github.io/fe-js-backbone-produce-store/#fruits)
