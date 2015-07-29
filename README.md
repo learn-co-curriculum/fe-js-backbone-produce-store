@@ -1,9 +1,4 @@
----
-languages: javascript
-tags: mv, backbone, framework, js, jquery, underscore, models, views, router
-resources: 4
-type: lab
----
+
 
 # Produce Store
 
