@@ -56,4 +56,4 @@ To see a similiar code example to use as a reference check out the [video here](
 - [Underscore Docs](http://underscorejs.org/)
 - [Backbone Docs](http://backbonejs.org/)
 - [Finished Example](http://learn-co-curriculum.github.io/fe-js-backbone-produce-store/#fruits)
-<a href='https://learn.co/lessons/fe-js-backbone-produce-store' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-js-backbone-produce-store' title='Produce Store'>Produce Store</a> on Learn.co and start learning to code for free.</p>
